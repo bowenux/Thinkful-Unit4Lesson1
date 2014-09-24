@@ -80,13 +80,13 @@ struct LTCharacterLimbo: DebugPrintable {
     var drawingProgress: CGFloat = 0.0
     
     var debugDescription: String {
-    get {
-        return "Character: '\(char)'"
-            + "drawIn (\(rect.origin.x), \(rect.origin.y), "
-            + "\(rect.size.width)x\(rect.size.height) "
-            + "with alpha \(alpha) "
-            + "and \(size)pt font."
-    }
+        get {
+            
+            return "Character: '\(char)' drawIn (\(rect.origin.x), \(rect.origin.y) \(rect.size.width)x\(rect.size.height) with alpha \(alpha) and \(size)pt font."
+            
+        }
+        
+
     }
     
 }
